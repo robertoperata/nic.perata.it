@@ -86,8 +86,10 @@ if ( ! current_theme_supports( 'widgets' ) ) {
 // These are the widgets grouped by sidebar
 $sidebars_widgets = wp_get_sidebars_widgets();
 
+
 if ( empty( $sidebars_widgets ) )
 	$sidebars_widgets = wp_get_widget_defaults();
+
 
 foreach ( $sidebars_widgets as $sidebar_id => $widgets ) {
 	if ( 'wp_inactive_widgets' == $sidebar_id )

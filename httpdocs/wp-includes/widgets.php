@@ -1199,14 +1199,17 @@ function dynamic_sidebar($index = 1) {
 	} else {
 		$index = sanitize_title($index);
 		foreach ( (array) $wp_registered_sidebars as $key => $value ) {
+
 			if ( sanitize_title($value['name']) == $index ) {
 				$index = $key;
 				break;
 			}
 		}
+
 	}
 
 	$sidebars_widgets = wp_get_sidebars_widgets();
+
 	if ( empty( $wp_registered_sidebars[ $index ] ) || empty( $sidebars_widgets[ $index ] ) || ! is_array( $sidebars_widgets[ $index ] ) ) {
 		/** This action is documented in wp-includes/widgets.php */
 		do_action( 'dynamic_sidebar_before', $index, false );

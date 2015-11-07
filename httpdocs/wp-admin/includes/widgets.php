@@ -112,6 +112,7 @@ function wp_list_widget_controls( $sidebar, $sidebar_name = '' ) {
  * @return array
  */
 function wp_list_widget_controls_dynamic_sidebar( $params ) {
+
 	global $wp_registered_widgets;
 	static $i = 0;
 	$i++;
