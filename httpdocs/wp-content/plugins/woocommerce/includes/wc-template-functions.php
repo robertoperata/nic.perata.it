@@ -408,7 +408,6 @@ if ( ! function_exists( 'woocommerce_get_sidebar' ) ) {
 	 *
 	 */
 	function woocommerce_get_sidebar() {
-
 		wc_get_template( 'global/sidebar.php' );
 	}
 }
