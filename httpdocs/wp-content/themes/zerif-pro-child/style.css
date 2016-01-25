@@ -1,14 +1,25 @@
 /*
-Theme Name: Zerif PRO Priz
-Theme URI: https://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/
+Theme Name: Zerif PRO Child
 Author: Roberto Perata
 Author URI: https://themeisle.com
 Description: Zerif PRO is a modern responsive WordPress Theme. It's perfect for web agencies, digital studios, corporate, product showcase, personal and business portfolio.
-Templete: zerif-pro
+Template: zerif-pro
 Version: 1.8.4.0
 License: GNU General Public License version 2
-License URI: license.txt
-Text Domain: priz
-Domain Path: /languages/
+Text Domain: zerif-pro-child
 Tags: black, gray, red, white, one-column, two-columns, right-sidebar, responsive-layout, custom-background, custom-menu, editor-style, featured-images, threaded-comments, translation-ready
 */
+
+.product_list_widget h3{
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.product_list_widget .message{
+    line-height: 1.1em;
+}
+
+.product_list_widget .feedback-box{
+    height: 380px;
+}

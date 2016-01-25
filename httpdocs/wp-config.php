@@ -25,12 +25,15 @@
 
 // ** Impostazioni MySQL - È possibile ottenere queste informazioni dal proprio fornitore di hosting ** //
 /** Il nome del database di WordPress */
+//define('DB_NAME', 'wx1ikc2l_afs-labs');
 define('DB_NAME', 'nicdb');
 
 /** Nome utente del database MySQL */
+//define('DB_USER', 'wx1ikc2l_nic');
 define('DB_USER', 'root');
 
 /** Password del database MySQL */
+//define('DB_PASSWORD', '!7s&pgq]WmPl');
 define('DB_PASSWORD', 'root');
 
 /** Hostname MySQL  */
